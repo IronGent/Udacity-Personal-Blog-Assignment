@@ -1,0 +1,824 @@
+body{
+    background-color:#6bc1c1;
+}
+#head{
+    position:fixed;
+    max-width:100%;
+}
+#navbar{
+    position:fixed;
+    display:flex;
+    justify-content:space-between;
+    background-color:white;
+    top:0;    
+    left:0;
+    right:0;
+}
+#navbar a{
+    font-family:"Notable";
+    text-decoration:none;
+    font-size:30px;
+    margin-left:20px;
+    color:#6bc1c1;
+}
+#navbar a:hover{
+  color:#632526;  
+
+}
+.design{
+    margin-left:400px;
+}
+#spacer{
+    height:40px;
+}
+#list{
+    list-style-type:none;
+    margin-left:-40px;
+}
+#line{
+    height:30px;
+    color:red;
+    background-image: linear-gradient(to bottom right, rgb(107,193,193,1),rgb(99,37,38,1));
+    border-radius:5%;
+}
+#sup{
+    color:gray;
+}
+.link{
+    text-decoration:none;
+    color:#6bc1c1
+}
+#container{
+    display:flex;
+    flex-direction:row;
+   justify-content:space-between;
+    width:80%;
+    margin-left:95px;
+    background-color:white;
+    border-bottom:3px solid gray;
+}
+#box{
+    margin-top:50px;
+    font-family:"Monoton";
+    color:#632526;
+    font-size:25px;
+}
+#s-container{
+    display:grid;
+    grid-template-areas:
+    "sb sb"
+    "fb ig"
+    "tw yt";
+    border:3px solid gray;
+}
+#author{
+    display:grid;
+    grid-template-areas:
+    "pc pc"
+    "ct ct";
+    border:3px solid gray;
+}
+.apic{
+    border-radius:50%;
+    border:5px solid #6bc1c1;
+}
+#card{
+    font-size: 15px;
+}
+#box-au{
+    grid-area:pc;
+    text-align:center;
+    width:40px;
+}
+#box-bu{
+    grid-area:ct;
+    text-align:center;
+    width:145px;
+    font-weight:bold;
+}
+.top{
+    grid-area:sb;
+    text-align:center;
+    font-family: "Montserrat Subrayada";
+    color:#632526
+}
+#main{
+    display:grid;
+    width:80%;
+    margin-left:95px;
+    grid-template-areas:
+    "bd bd bd bd bd bd bd sd"
+    "bd bd bd bd bd bd bd sd"
+    "bd bd bd bd bd bd bd sd"
+    "ft ft ft ft ft ft ft ft"
+    ;
+    background-color:white;
+}
+p{
+    font-size:20px;
+}
+ul{
+    font-size:20px;
+}
+#body{
+    grid-area:bd;
+    border-right:3px solid gray;
+}
+#side{
+    grid-area:sd;
+    display:flex;
+    flex-direction:column;
+    width:300px;
+}
+#box-1{
+    height:430px;
+    margin-bottom:50px;
+    background-image: linear-gradient(to bottom right, rgb(107,193,193,1),rgb(99,37,38,1));
+    color:white;
+    border-radius:5%;
+}
+#box-2{
+    margin-bottom:50px;
+    border-top:3px solid gray; 
+}
+#box-3{
+    border-top:3px solid gray
+}
+#main-button{
+    border-radius:10%;
+    background-color:rgb(99,37,38,1);
+    font-size:20px;
+    color:#6bc1c1;
+}
+#main-button:hover{
+    background-color:rgb(107,193,193,0.3);
+    color:#842326;
+}
+#footer{
+    grid-area:ft;
+    height:50px;
+    background-image: linear-gradient(to bottom right, rgb(107,193,193,1),rgb(99,37,38,1));
+    color:white;
+    font-size: 20px;
+}
+
+
+@media(min-width:320px){
+body{
+    background-color:#6bc1c1;
+}
+#head{
+    position:fixed;
+    max-width:100%;
+}
+#navbar{
+    position:fixed;
+    display:flex;
+    justify-content:space-between;
+    background-color:white;
+    top:0;    
+    left:0;
+    right:0;
+}
+#navbar a{
+    font-family:"Notable";
+    text-decoration:none;
+    font-size:30px;
+    margin-left:20px;
+    color:#6bc1c1;
+}
+#navbar a:hover{
+  color:#632526;  
+}
+.design{
+    margin-left:400px;
+}
+#spacer{
+    height:40px;
+}
+#list{
+    list-style-type:none;
+    margin-left:-40px;
+}
+#line{
+    height:30px;
+    color:red;
+    background-image: linear-gradient(to bottom right, rgb(107,193,193,1),rgb(99,37,38,1));
+    border-radius:5%;
+}
+#sup{
+    color:gray;
+}
+.link{
+    text-decoration:none;
+    color:#6bc1c1
+}
+#container{
+    display:flex;
+    flex-direction:row;
+   justify-content:space-between;
+    width:80%;
+    margin-left:95px;
+    border-bottom:3px solid gray;
+    background-color:white;
+}
+#box{
+    margin-top:10px;
+    font-family:"Monoton";
+    color:#632526;
+    font-size:40px;
+}
+#s-container{
+    display:grid;
+    grid-template-areas:
+    "sb sb"
+    "fb ig"
+    "tw yt";
+    border-bottom:3px solid gray;
+}
+#author{
+    border:2px solid gray;
+    display:grid;
+    grid-template-areas:
+    "pc pc"
+    "ct ct";
+}
+.apic{
+    border-radius:50%;
+    border:5px solid #6bc1c1;
+}
+#card{
+    font-size: 15px;
+}
+#box-au{
+    grid-area:pc;
+    text-align:center;
+    width:40px;
+}
+#box-bu{
+    grid-area:ct;
+    text-align:center;
+    width:145px;
+    font-weight:bold;
+}
+.top{
+    grid-area:sb;
+    text-align:center;
+    font-family: "Montserrat Subrayada";
+    color:#632526
+}
+#main{
+    display:grid;
+    width:80%;
+    margin-left:95px;
+    grid-template-areas:
+    "bd bd bd bd bd bd bd sd"
+    "bd bd bd bd bd bd bd sd"
+    "bd bd bd bd bd bd bd sd"
+    "ft ft ft ft ft ft ft ft"
+    ;
+    background-color:white;
+}
+p{
+    font-size:20px;
+}
+ul{
+    font-size:20px;
+}
+#body{
+    grid-area:bd;
+    border-right:3px solid gray;
+}
+#side{
+    grid-area:sd;
+    display:flex;
+    flex-direction:column;
+    width:300px;
+}
+#box-1{
+    height:430px;
+    margin-bottom:50px;
+    background-image: linear-gradient(to bottom right, rgb(107,193,193,1),rgb(99,37,38,1));
+    color:white;
+    border-radius:5%;
+}
+#box-2{
+    border-top:3px solid gray;
+    margin-bottom:50px;
+}
+#box-3{
+    border-top:3px solid gray;
+}
+#main-button{
+    border-radius:10%;
+    background-color:rgb(99,37,38,1);
+    font-size:20px;
+    color:#6bc1c1;
+}
+#main-button:hover{
+    background-color:rgb(107,193,193,0.3);
+    color:#842326;
+}
+#footer{
+    grid-area:ft;
+    background-image: linear-gradient(to bottom right, rgb(107,193,193,1),rgb(99,37,38,1));
+    color:white;
+    font-size: 20px;
+}
+}
+
+
+@media(min-width:600px) and (max-width:900px){
+    body{
+        background-color:#6bc1c1;
+    }
+    #head{
+        position:fixed;
+        max-width:100%;
+    }
+    #navbar{
+        position:fixed;
+        display:flex;
+        justify-content:space-between;
+        background-color:white;
+        top:0;    
+        left:0;
+        right:0;
+    }
+    #navbar a{
+        font-family:"Notable";
+        text-decoration:none;
+        font-size:30px;
+        margin-left:20px;
+        color:#6bc1c1;
+    }
+    #navbar a:hover{
+      color:#632526;  
+    }
+    .design{
+        margin-left:400px;
+    }
+    #spacer{
+        height:40px;
+    }
+    #list{
+        list-style-type:none;
+        margin-left:-40px;
+    }
+    #line{
+        height:30px;
+        color:red;
+        background-image: linear-gradient(to bottom right, rgb(107,193,193,1),rgb(99,37,38,1));
+        border-radius:5%;
+    }
+    #sup{
+        color:gray;
+    }
+    .link{
+        text-decoration:none;
+        color:#6bc1c1
+    }
+    #container{
+        display:flex;
+        flex-direction:row;
+       justify-content:space-between;
+        width:80%;
+        margin-left:95px;
+        border-bottom:3px solid gray;
+        background-color:white;
+    }
+    #box{
+        margin-top:10px;
+        font-family:"Monoton";
+        color:#632526;
+        font-size:40px;
+    }
+    #s-container{
+        display:grid;
+        grid-template-areas:
+        "sb sb"
+        "fb ig"
+        "tw yt";
+        border-bottom:3px solid gray;
+    }
+    #author{
+        border:3px solid gray;
+        display:grid;
+        grid-template-areas:
+        "pc pc"
+        "ct ct";
+    }
+    .apic{
+        border-radius:50%;
+        border:5px solid #6bc1c1;
+    }
+    #card{
+        font-size: 15px;
+    }
+    #box-au{
+        grid-area:pc;
+        text-align:center;
+        width:40px;
+    }
+    #box-bu{
+        grid-area:ct;
+        text-align:center;
+        width:145px;
+        font-weight:bold;
+    }
+    .top{
+        grid-area:sb;
+        text-align:center;
+        font-family: "Montserrat Subrayada";
+        color:#632526
+    }
+    #main{
+        display:grid;
+        width:80%;
+        margin-left:95px;
+        grid-template-areas:
+        "bd bd bd bd bd bd bd sd"
+        "bd bd bd bd bd bd bd sd"
+        "bd bd bd bd bd bd bd sd"
+        "ft ft ft ft ft ft ft ft"
+        ;
+        background-color:white;
+    }
+    p{
+        font-size:20px;
+    }
+    ul{
+        font-size:20px;
+    }
+    #body{
+        grid-area:bd;
+        border-right:3px solid gray;
+    }
+    #side{
+        grid-area:sd;
+        display:flex;
+        flex-direction:column;
+        width:300px;
+    }
+    #box-1{
+        height:430px;
+        margin-bottom:50px;
+        background-image: linear-gradient(to bottom right, rgb(107,193,193,1),rgb(99,37,38,1));
+        color:white;
+        border-radius:5%;
+    }
+    #box-2{
+        border-top:3px solid gray;
+        margin-bottom:50px;
+    }
+    #box-3{
+        border-top:3px solid gray;
+    }
+    #main-button{
+        border-radius:10%;
+        background-color:rgb(99,37,38,1);
+        font-size:20px;
+        color:#6bc1c1;
+    }
+    #main-button:hover{
+        background-color:rgb(107,193,193,0.3);
+        color:#842326;
+    }
+    #footer{
+        grid-area:ft;
+        background-image: linear-gradient(to bottom right, rgb(107,193,193,1),rgb(99,37,38,1));
+        color:white;
+        font-size: 20px;
+    }
+}
+
+
+@media(min-width:901px){
+    body{
+        background-color:#6bc1c1;
+    }
+    #head{
+        position:fixed;
+        max-width:100%;
+    }
+    #navbar{
+        position:fixed;
+        display:flex;
+        justify-content:space-between;
+        background-color:white;
+        top:0;    
+        left:0;
+        right:0;
+    }
+    #navbar a{
+        font-family:"Notable";
+        text-decoration:none;
+        font-size:30px;
+        margin-left:20px;
+        color:#6bc1c1;
+    }
+    #navbar a:hover{
+      color:#632526;  
+    }
+    .design{
+        margin-left:400px;
+    }
+    #spacer{
+        height:40px;
+    }
+    #list{
+        list-style-type:none;
+        margin-left:-40px;
+    }
+    #line{
+        height:30px;
+        color:red;
+        background-image: linear-gradient(to bottom right, rgb(107,193,193,1),rgb(99,37,38,1));
+        border-radius:5%;
+    }
+    #sup{
+        color:gray;
+    }
+    .link{
+        text-decoration:none;
+        color:#6bc1c1
+    }
+    #container{
+        display:flex;
+        flex-direction:row;
+       justify-content:space-between;
+        width:80%;
+        margin-left:95px;
+        border-bottom:3px solid gray;
+        background-color:white;
+    }
+    #box{
+        margin-top:10px;
+        font-family:"Monoton";
+        color:#632526;
+        font-size:40px;
+    }
+    #s-container{
+        display:grid;
+        grid-template-areas:
+        "sb sb"
+        "fb ig"
+        "tw yt";
+        border-bottom:3px solid gray;
+    }
+    #author{
+        border:3px solid gray;
+        display:grid;
+        grid-template-areas:
+        "pc pc"
+        "ct ct";
+    }
+    .apic{
+        border-radius:50%;
+        border:5px solid #6bc1c1;
+    }
+    #card{
+        font-size: 15px;
+    }
+    #box-au{
+        grid-area:pc;
+        text-align:center;
+        width:40px;
+    }
+    #box-bu{
+        grid-area:ct;
+        text-align:center;
+        width:145px;
+        font-weight:bold;
+    }
+    .top{
+        grid-area:sb;
+        text-align:center;
+        font-family: "Montserrat Subrayada";
+        color:#632526
+    }
+    #main{
+        display:grid;
+        width:80%;
+        margin-left:95px;
+        grid-template-areas:
+        "bd bd bd bd bd bd bd sd"
+        "bd bd bd bd bd bd bd sd"
+        "bd bd bd bd bd bd bd sd"
+        "ft ft ft ft ft ft ft ft"
+        ;
+        background-color:white;
+    }
+    p{
+        font-size:20px;
+    }
+    ul{
+        font-size:20px;
+    }
+    #body{
+        grid-area:bd;
+        border-right:3px solid gray;
+    }
+    #side{
+        grid-area:sd;
+        display:flex;
+        flex-direction:column;
+        width:300px;
+    }
+    #box-1{
+        height:430px;
+        margin-bottom:50px;
+        background-image: linear-gradient(to bottom right, rgb(107,193,193,1),rgb(99,37,38,1));
+        color:white;
+        border-radius:5%;
+    }
+    #box-2{
+        border-top:3px solid gray;
+        margin-bottom:50px;
+    }
+    #box-3{
+        border-top:3px solid gray;
+    }
+    #main-button{
+        border-radius:10%;
+        background-color:rgb(99,37,38,1);
+        font-size:20px;
+        color:#6bc1c1;
+    }
+    #main-button:hover{
+        background-color:rgb(107,193,193,0.3);
+        color:#842326;
+    }
+    #footer{
+        grid-area:ft;
+        background-image: linear-gradient(to bottom right, rgb(107,193,193,1),rgb(99,37,38,1));
+        color:white;
+        font-size: 20px;
+    }
+}
+
+
+@media(min-width:1800px){
+    body{
+        background-color:#6bc1c1;
+    }
+    #head{
+        position:fixed;
+        max-width:100%;
+    }
+    #navbar{
+        position:fixed;
+        display:flex;
+        justify-content:space-between;
+        background-color:white;
+        top:0;    
+        left:0;
+        right:0;
+    }
+    #navbar a{
+        font-family:"Notable";
+        text-decoration:none;
+        font-size:30px;
+        margin-left:20px;
+        color:#6bc1c1;
+    }
+    #navbar a:hover{
+      color:#632526;  
+    }
+    .design{
+        margin-left:400px;
+    }
+    #spacer{
+        height:40px;
+    }
+    #list{
+        list-style-type:none;
+        margin-left:-40px;
+    }
+    #line{
+        height:30px;
+        color:red;
+        background-image: linear-gradient(to bottom right, rgb(107,193,193,1),rgb(99,37,38,1));
+        border-radius:5%;
+    }
+    #sup{
+        color:gray;
+    }
+    .link{
+        text-decoration:none;
+        color:#6bc1c1
+    }
+    #container{
+        display:flex;
+        flex-direction:row;
+       justify-content:space-between;
+        width:80%;
+        margin-left:170px;
+        border-bottom:3px solid gray;
+        background-color:white;
+    }
+    #box{
+        margin-top:10px;
+        font-family:"Monoton";
+        color:#632526;
+        font-size:40px;
+    }
+    #s-container{
+        display:grid;
+        grid-template-areas:
+        "sb sb"
+        "fb ig"
+        "tw yt";
+        border-bottom:3px solid gray;
+    }
+    #author{
+        border:3px solid gray;
+        display:grid;
+        grid-template-areas:
+        "pc pc"
+        "ct ct";
+    }
+    .apic{
+        border-radius:50%;
+        border:5px solid #6bc1c1;
+    }
+    #card{
+        font-size: 15px;
+    }
+    #box-au{
+        grid-area:pc;
+        text-align:center;
+        width:40px;
+    }
+    #box-bu{
+        grid-area:ct;
+        text-align:center;
+        width:145px;
+        font-weight:bold;
+    }
+    .top{
+        grid-area:sb;
+        text-align:center;
+        font-family: "Montserrat Subrayada";
+        color:#632526
+    }
+    #main{
+        display:grid;
+        width:80%;
+        margin-left:170px;
+        grid-template-areas:
+        "bd bd bd bd bd bd bd sd"
+        "bd bd bd bd bd bd bd sd"
+        "bd bd bd bd bd bd bd sd"
+        "ft ft ft ft ft ft ft ft"
+        ;
+        background-color:white;
+    }
+    p{
+        font-size:20px;
+    }
+    ul{
+        font-size:20px;
+    }
+    #body{
+        grid-area:bd;
+        border-right:3px solid gray;
+    }
+    #side{
+        grid-area:sd;
+        display:flex;
+        flex-direction:column;
+        width:300px;
+    }
+    #box-1{
+        height:430px;
+        margin-bottom:50px;
+        background-image: linear-gradient(to bottom right, rgb(107,193,193,1),rgb(99,37,38,1));
+        color:white;
+        border-radius:5%;
+    }
+    #box-2{
+        border-top:3px solid gray;
+        margin-bottom:50px;
+    }
+    #box-3{
+        border-top:3px solid gray;
+    }
+    #main-button{
+        border-radius:10%;
+        background-color:rgb(99,37,38,1);
+        font-size:20px;
+        color:#6bc1c1;
+    }
+    #main-button:hover{
+        background-color:rgb(107,193,193,0.3);
+        color:#842326;
+    }
+    #footer{
+        grid-area:ft;
+        border: 2px solid yellow;
+        background-image: linear-gradient(to bottom right, rgb(107,193,193,1),rgb(99,37,38,1));
+        color:white;
+        font-size: 20px;
+    }
+}

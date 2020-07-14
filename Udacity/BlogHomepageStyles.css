@@ -1,0 +1,363 @@
+body{
+    background-color:#6bc1c1;
+}
+#head{
+    position:fixed;
+    max-width:100%;
+    
+}
+#navbar{
+    position:fixed;
+    display:flex;
+    justify-content:space-between; 
+    background-color:white;
+    top:0;
+    left:0;
+    right:0;
+}
+#navbar a{
+    font-family:"Notable";
+    text-decoration:none;
+    font-size:30px;
+    margin-left:20px;
+    color:#6bc1c1;
+}
+#navbar a:hover{
+  color:#632526;  
+
+}
+.design{
+    margin-left:400px;
+}
+#spacer{
+    height:40px;
+}
+#content{
+    display:flex;
+    flex-direction:column;
+    width:98%;
+    margin-left:10px;
+}
+#blog-post{
+    display:flex;
+    flex-direction:row;
+    height:250px;
+    margin-bottom:90px;
+}
+.box-1{
+    width:320px;
+    
+}
+#img-1{
+    background-image:url("Aspirations.jpg");
+}
+#img-2{
+    background-image:url("Health.jpg")
+}
+#img-3{
+    background-image:url("Travel.jpg")
+}
+.box-2{
+    width:100%;
+    background-color:white;
+}
+.box-b{
+    margin:0;
+}
+#title{
+    margin:0;
+    padding:0;
+    font-family:"Monoton";
+    color:#632526;
+}
+#footer{
+    color:white;
+    background-image: linear-gradient(to bottom right, rgb(107,193,193,1),rgb(99,37,38,1));
+    height:50px;
+   
+}
+.footer{
+    padding:10px;
+}
+p{
+    font-size:30px;
+}
+.link{
+        text-decoration:none;
+        color:#6bc1c1;
+        font-size:20px;
+}
+
+
+@media(max-width:320px){
+body{
+    background-color:#6bc1c1;
+}
+#head{
+    position:fixed;
+    max-width:100%;
+    
+}
+#navbar{
+    position:fixed;
+    display:flex;
+    justify-content:space-between; 
+    background-color:white;
+    top:0;
+    left:0;
+    right:0;
+}
+#navbar a{
+    font-family:"Notable";
+    text-decoration:none;
+    font-size:30px;
+    margin-left:20px;
+    color:#6bc1c1;
+}
+#navbar a:hover{
+  color:#632526;  
+
+}
+.design{
+    margin-left:400px;
+}
+#spacer{
+    height:40px;
+}
+#content{
+    display:flex;
+    flex-direction:column;
+    width:98%;
+    margin-left:10px;
+}
+#blog-post{
+    display:flex;
+    flex-direction:row;
+    height:250px;
+    margin-bottom:90px;
+}
+.box-1{
+    width:320px;
+    
+}
+#img-1{
+    background-image:url("Aspirations.jpg");
+}
+#img-2{
+    background-image:url("Health.jpg")
+}
+#img-3{
+    background-image:url("Travel.jpg")
+}
+.box-2{
+    width:100%;
+    background-color:white;
+}
+.box-b{
+    margin:0;
+}
+#title{
+    margin:0;
+    padding:0;
+    font-family:"Monoton";
+    color:#632526;
+}
+#footer{
+    color:white;
+    background-image: linear-gradient(to bottom right, rgb(107,193,193,1),rgb(99,37,38,1));
+    height:50px;
+}
+.footer{
+    padding:10px;
+}
+p{
+    font-size:30px;
+}
+.link{
+        text-decoration:none;
+        color:#6bc1c1;
+        font-size:20px;
+}
+}
+
+
+@media(min-width:600px) and (max-width:900px){
+    body{
+        background-color:#6bc1c1;
+    }
+    #head{
+        position:fixed;
+        max-width:100%;
+        
+    }
+    #navbar{
+        position:fixed;
+        display:flex;
+        justify-content:space-between; 
+        background-color:white;
+        top:0;
+        left:0;
+        right:0;
+    }
+    #navbar a{
+        font-family:"Notable";
+        text-decoration:none;
+        font-size:30px;
+        margin-left:20px;
+        color:#6bc1c1;
+    }
+    #navbar a:hover{
+      color:#632526;  
+    }
+    .design{
+        margin-left:400px;
+    }
+    
+    #spacer{
+        height:40px;
+    }
+    #content{
+        display:flex;
+        flex-direction:column;
+        width:98%;
+        margin-left:9px;
+    }
+    #blog-post{
+        display:flex;
+        flex-direction:row;
+        height:250px;
+        margin-bottom:90px;
+    }
+    .box-1{
+        width:320px;
+        
+    }
+    #img-1{
+        background-image:url("Aspirations.jpg");
+    }
+    #img-2{
+        background-image:url("Health.jpg")
+    }
+    #img-3{
+        background-image:url("Travel.jpg")
+    }
+    .box-2{
+        width:100%;
+        background-color:white;
+    }
+    .box-b{
+        margin:0;
+    }
+    #title{
+        margin:0;
+        padding:0;
+        font-family:"Monoton";
+        color:#632526;
+    }
+    #footer{
+        color:white;
+        background-image: linear-gradient(to bottom right, rgb(107,193,193,1),rgb(99,37,38,1));
+        height:50px;
+    }
+    .footer{
+        padding:10px;
+    }
+    p{
+        font-size:30px;
+    }
+    .link{
+            text-decoration:none;
+            color:#6bc1c1;
+            font-size:20px;
+    }
+
+}
+
+
+@media(min-width:901px){
+    body{
+        background-color:#6bc1c1;
+    }
+    #head{
+        position:fixed;
+        max-width:100%;
+    }
+    #navbar{
+        position:fixed;
+        display:flex;
+        justify-content:space-between; 
+        background-color:white;
+        top:0;
+        left:0;
+        right:0;
+    }
+    #navbar a{
+        font-family:"Notable";
+        text-decoration:none;
+        font-size:30px;
+        margin-left:20px;
+        color:#6bc1c1;
+    }
+    #navbar a:hover{
+      color:#632526;  
+    }
+    .design{
+        margin-left:400px;
+    }
+    #spacer{
+        height:40px;
+    }
+    #content{
+        display:flex;
+        flex-direction:column;
+        width:98%;
+        margin-left:12px;
+    }
+    #blog-post{
+        display:flex;
+        flex-direction:row;
+        height:250px;
+        margin-bottom:90px;
+    }
+    .box-1{
+        width:320px;
+    }
+    #img-1{
+        background-image:url("Aspiration1.jpg");
+    }
+    #img-2{
+        background-image:url("Health1.jpg")
+    }
+    #img-3{
+        background-image:url("Travel1.jpg")
+    }
+    .box-2{
+        width:100%;
+        background-color:white;
+    }
+    .box-b{
+        margin:0;
+    }
+    #title{
+        margin:0;
+        padding:0;
+        font-family:"Monoton";
+        color:#632526;
+    }
+    #footer{
+        color:white;
+        background-image: linear-gradient(to bottom right, rgb(107,193,193,1),rgb(99,37,38,1));
+        height:50px;
+    }
+    .footer{
+        padding:10px;
+    }
+    p{
+        font-size:30px;
+    }
+    .link{
+            text-decoration:none;
+            color:#6bc1c1;
+            font-size:20px;
+    }
+}
